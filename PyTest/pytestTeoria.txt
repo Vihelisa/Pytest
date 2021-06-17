@@ -1,0 +1,29 @@
+===================================================== PYTEST TEORIA ==================================================
+
+*O que é o pytest?
+    - É um framework de testes python que dá soluções para executar testes e fazer validações diversas;
+        - O que é framework: É uma abstração que une códigos comuns entre vários projetos de software provendo uma 
+        funcionalidade genérica.
+
+*Como instalar?
+    - Colocar no terminal: pip install pytest;
+
+*Como que o pytest funciona?
+    - Quando você executa o comando pytest dentro do seu ambiente virtual python, ele vai fazer um scan nos diretórios e 
+      subdiretórios do seu repositório procurando por arquivos que respeitem o formato de nomenclatura test_*.py ou 
+      *_test.py.
+    - Se caso o arquivo qe fará os testes comm o pytest não obedercer p padrão, o teste não será feito, pois o framework não 
+      irá reconhecer o que deve reconhecer;
+    - Não ter medo de colocar nomes grandes pois o intúito é explicar o que o teste está querendo fazer;
+    - O pytest mostra os outros testes, quais deram certo e quais n'ao deram;
+    
+
+*Quais os comandos para chamar o pytest?
+  Para funcionamento normal, fazendo todos os testes de uma só vez:
+    - pytest;
+    - python -m pytest;
+    - pytest [nome do arquivo]
+
+  Para quando for necessário fazer o teste, mas assim que achar uma falha para todos os testes:
+    - pytest [nome do arquivo] -x
+
